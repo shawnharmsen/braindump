@@ -119,7 +119,7 @@ dependencies = [
 name = "braindump"
 version = "0.1.0"
 dependencies = [
- "llm-chain",
+ "llm-chain 0.11.2",
  "llm-chain-openai",
  "tokio",
 ]
@@ -897,15 +897,41 @@ dependencies = [
 ]
 
 [[package]]
-name = "llm-chain-openai"
-version = "0.11.2"
+name = "llm-chain"
+version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "207afb4bc6d5818a3b88a8edb8ad7681e68d19171b7ce42f7d3c8616b02810bf"
+checksum = "47e8990a56826cd178b78c54f6731df6c21466a28f8b7a5445f1efb7de5fc850"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "derive_builder",
+ "futures",
+ "lazy_static",
+ "markdown",
+ "paste",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_yaml",
+ "strum",
+ "strum_macros",
+ "tera",
+ "thiserror",
+ "tokio",
+ "tokio-stream",
+ "uuid",
+]
+
+[[package]]
+name = "llm-chain-openai"
+version = "0.12.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ae2e0dfdee95eaabe7c1d73369fd20677cc7fbaaee7558a9298b33622d743dc"
 dependencies = [
  "async-openai",
  "async-trait",
  "futures",
- "llm-chain",
+ "llm-chain 0.12.0",
  "serde",
  "strum",
  "strum_macros",
@@ -1120,6 +1146,12 @@ checksum = "c705f256449c60da65e11ff6626e0c16a0a0b96aaa348de61376b249bc340f41"
 dependencies = [
  "regex",
 ]
+
+[[package]]
+name = "paste"
+version = "1.0.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9f746c4065a8fa3fe23974dd82f15431cc8d40779821001404d10d2e79ca7d79"
 
 [[package]]
 name = "percent-encoding"
@@ -1863,9 +1895,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-stream"
-version = "0.1.12"
+version = "0.1.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8fb52b74f05dbf495a8fba459fdc331812b96aa086d9eb78101fa0d4569c3313"
+checksum = "397c988d37662c7dda6d2208364a706264bf3d6138b11d436cbac0ad38832842"
 dependencies = [
  "futures-core",
  "pin-project-lite",
