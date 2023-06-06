@@ -877,9 +877,9 @@ checksum = "3f508063cc7bb32987c71511216bd5a32be15bccb6a80b52df8b9d7f01fc3aa2"
 
 [[package]]
 name = "llm-chain"
-version = "0.12.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47e8990a56826cd178b78c54f6731df6c21466a28f8b7a5445f1efb7de5fc850"
+checksum = "6eaa9a5b6fde236014294afd104a046f2b5d9ce56be5e001d2f04b4253fef5b4"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1732,9 +1732,9 @@ dependencies = [
 
 [[package]]
 name = "tera"
-version = "1.18.1"
+version = "1.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95a665751302f22a03c56721e23094e4dc22b04a80f381e6737a07bf7a7c70c0"
+checksum = "a5ab29bb4f3e256ae6ad5c3e2775aa1f8829f2c0c101fc407bfd3a6df15c60c5"
 dependencies = [
  "chrono",
  "chrono-tz",
