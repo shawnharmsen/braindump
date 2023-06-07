@@ -903,9 +903,9 @@ dependencies = [
 
 [[package]]
 name = "llm-chain-openai"
-version = "0.12.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0ae2e0dfdee95eaabe7c1d73369fd20677cc7fbaaee7558a9298b33622d743dc"
+checksum = "98f0eeaf81f031073b345c3eed4d2053d340057fe872ea6820cf5411dd38b3c7"
 dependencies = [
  "async-openai",
  "async-trait",
