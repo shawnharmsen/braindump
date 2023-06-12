@@ -877,9 +877,9 @@ checksum = "3f508063cc7bb32987c71511216bd5a32be15bccb6a80b52df8b9d7f01fc3aa2"
 
 [[package]]
 name = "llm-chain"
-version = "0.12.1"
+version = "0.12.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6eaa9a5b6fde236014294afd104a046f2b5d9ce56be5e001d2f04b4253fef5b4"
+checksum = "0d54c14b35f58edcc0f453d3404b10c636fb7514b50476b0ae26f49236d91b3a"
 dependencies = [
  "anyhow",
  "async-trait",
