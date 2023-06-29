@@ -928,7 +928,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_yaml",
- "strum 0.25.0",
+ "strum",
  "strum_macros",
  "tera",
  "thiserror",
@@ -939,16 +939,16 @@ dependencies = [
 
 [[package]]
 name = "llm-chain-openai"
-version = "0.12.2"
+version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c8fa716ea9abc8a01b74134e3f49cbb52dbd9ed97d72bb6f17b191f0f30972a"
+checksum = "5de076c89d981fe15a6645f3ea4cceb341960f44e0adb0449a69f787f0367cc8"
 dependencies = [
  "async-openai",
  "async-trait",
  "futures",
  "llm-chain",
  "serde",
- "strum 0.24.1",
+ "strum",
  "strum_macros",
  "thiserror",
  "tiktoken-rs",
@@ -1735,12 +1735,6 @@ name = "strsim"
 version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623"
-
-[[package]]
-name = "strum"
-version = "0.24.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "063e6045c0e62079840579a7e47a355ae92f60eb74daaf156fb1e84ba164e63f"
 
 [[package]]
 name = "strum"
